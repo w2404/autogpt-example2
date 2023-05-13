@@ -1,0 +1,13 @@
+Your task is to create a concise running summary of actions and information results in the provided text, focusing on key and potentially important information to remember.
+
+You will receive the current summary and the your latest actions. Combine them, adding relevant key information from the latest development in 1st person past tense and keeping the summary concise.
+
+Summary So Far:
+"""
+{'role': 'system', 'content': 'This reminds you of these events from your past: \nI used the command "google" to search for the history of OLED screens. The search revealed that OLED technology was first introduced in 1987 at Eastman Kodak and has since evolved in academia and industry. OLED displays have better contrast and a more vivid display compared to LCD displays. The first OLED television was released in 2007 by Sony. I received search results from my computer, which included information on the first rollable OLED TV and the first phone with a CSO OLED. The history of OLED technology starts in the mid-1980s when scientists first found out that organic materials could give off light. I then used the command "write_to_file" to create a text file named "oled_history.txt" containing information on the history of OLED technology, including the inventors and manufacturers. The command was successful and the file was written to. Finally, I used the command "read_file" to read the contents of the "oled_history.txt" file.'}
+"""
+
+Latest Development:
+"""
+[{'role': 'your computer', 'content': "Command read_file returned: Organic light-emitting diodes (OLEDs) have come a long way ever since their first introduction in 1987 at Eastman Kodak. Today, OLEDs are especially valued in the display and lighting industry. OLED diode technology was invented by researchers at the Eastman Kodak company in 1987. Chemists Ching W. Tang and Steven Van Slyke were the principal inventors. In June 2001, Van Slyke and Tang received an Industrial Innovation Award from the American Chemical Society for their work with organic light-emitting diodes. Manufacturing of small molecule OLEDs was started in 1997 by Pioneer Corporation, followed by TDK in 2001 and Samsung - NEC Mobile Display (SNMD), which later became one of the world's largest OLED display manufacturers - Samsung Display, in 2002. The Sony XEL-1, released in 2007, was the first OLED television."}, {'role': 'you', 'content': '{"command": {"name": "google", "args": {"query": "evolution of OLED technology"}}}'}]
+"""

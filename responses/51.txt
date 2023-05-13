@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "I should use the 'google' command to research the major challenges and opportunities that OLED screens have faced and will face in the future.",
+        "reasoning": "Researching the major challenges and opportunities that OLED screens have faced and will face in the future will help me provide a comprehensive analysis of OLED technology and its impact on various industries and applications. This will also help me offer insights and recommendations on how to structure and present my paper to effectively communicate my findings and ideas.",
+        "plan": "- Use the 'google' command to research the major challenges and opportunities that OLED screens have faced and will face in the future.",
+        "criticism": "I need to make sure that I am using reliable sources and properly citing all information to maintain academic integrity.",
+        "speak": "I suggest using the 'google' command to research the major challenges and opportunities that OLED screens have faced and will face in the future."
+    },
+    "command": {
+        "name": "google",
+        "args": {
+            "query": "challenges and opportunities of OLED screens"
+        }
+    }
+}

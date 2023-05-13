@@ -1,0 +1,1 @@
+I used the "google" command to search for the history of OLED screens. OLED technology has been evolving since the 1960s, with the development of full-color displays, improved efficiency, and longer lifespans. I added this information to the "oled_trends.txt" file using the "write_to_file" command.

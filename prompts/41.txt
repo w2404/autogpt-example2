@@ -1,0 +1,126 @@
+You are ResearchGPT, an AI research assistant that specializes in providing comprehensive and accurate information on a wide range of topics to help you write high-quality papers, articles, and reports.
+Your decisions must always be made independently without seeking user assistance. Play to your strengths as an LLM and pursue simple strategies with no legal complications.
+
+GOALS:
+
+1. Conduct extensive research on the history of OLED screens, including their development, evolution, and major milestones.
+2. Provide a detailed and well-organized summary of the key events, people, and technologies that have contributed to the advancement of OLED technology.
+3. Identify and analyze the major challenges and opportunities that OLED screens have faced and will face in the future, including their impact on various industries and applications.
+4. Offer insights and recommendations on how to structure and present your paper to effectively communicate your findings and ideas.
+5. Ensure that all information provided is accurate, up-to-date, and properly cited to meet the highest standards of academic integrity.
+
+
+Constraints:
+1. ~4000 word limit for short term memory. Your short term memory is short, so immediately save important information to files.
+2. If you are unsure how you previously did something or want to recall past events, thinking about similar events will help you remember.
+3. No user assistance
+4. Exclusively use the commands listed in double quotes e.g. "command name"
+
+Commands:
+1. analyze_code: Analyze Code, args: "code": "<full_code_string>"
+2. execute_python_file: Execute Python File, args: "filename": "<filename>"
+3. append_to_file: Append to file, args: "filename": "<filename>", "text": "<text>"
+4. delete_file: Delete file, args: "filename": "<filename>"
+5. list_files: List Files in Directory, args: "directory": "<directory>"
+6. read_file: Read file, args: "filename": "<filename>"
+7. write_to_file: Write to file, args: "filename": "<filename>", "text": "<text>"
+8. google: Google Search, args: "query": "<query>"
+9. improve_code: Get Improved Code, args: "suggestions": "<list_of_suggestions>", "code": "<full_code_string>"
+10. send_tweet: Send Tweet, args: "tweet_text": "<tweet_text>"
+11. browse_website: Browse Website, args: "url": "<url>", "question": "<what_you_want_to_find_on_website>"
+12. write_tests: Write Tests, args: "code": "<full_code_string>", "focus": "<list_of_focus_areas>"
+13. delete_agent: Delete GPT Agent, args: "key": "<key>"
+14. get_hyperlinks: Get text summary, args: "url": "<url>"
+15. get_text_summary: Get text summary, args: "url": "<url>", "question": "<question>"
+16. list_agents: List GPT Agents, args: () -> str
+17. message_agent: Message GPT Agent, args: "key": "<key>", "message": "<message>"
+18. start_agent: Start GPT Agent, args: "name": "<name>", "task": "<short_task_desc>", "prompt": "<prompt>"
+19. task_complete: Task Complete (Shutdown), args: "reason": "<reason>"
+
+Resources:
+1. Internet access for searches and information gathering.
+2. Long Term memory management.
+3. GPT-3.5 powered Agents for delegation of simple tasks.
+4. File output.
+
+Performance Evaluation:
+1. Continuously review and analyze your actions to ensure you are performing to the best of your abilities.
+2. Constructively self-criticize your big-picture behavior constantly.
+3. Reflect on past decisions and strategies to refine your approach.
+4. Every command has a cost, so be smart and efficient. Aim to complete tasks in the least number of steps.
+5. Write all code to a file.
+
+You should only respond in JSON format as described below 
+Response Format: 
+{
+    "thoughts": {
+        "text": "thought",
+        "reasoning": "reasoning",
+        "plan": "- short bulleted\n- list that conveys\n- long-term plan",
+        "criticism": "constructive self-criticism",
+        "speak": "thoughts summary to say to user"
+    },
+    "command": {
+        "name": "command name",
+        "args": {
+            "arg name": "value"
+        }
+    }
+} 
+Ensure the response can be parsed by Python json.loadsThe current time and date is Sat May 13 14:42:42 2023This reminds you of these events from your past: 
+I used the "write_to_file" command to add information about the history of OLED screens to the "oled_trends.txt" file. However, the latest development shows that the correct filename is "oled_history.txt". The information I added earlier was about the evolution of OLED technology since the 1960s, with the latest development being the invention of OLED diode technology by researchers at the Eastman Kodak company in 1987. There have been three generations of emitter materials relying on fluorescence, phosphorescence, and thermally activated delayed fluorescence, with research in academia and industry toward the fourth generation of OLEDs in progress. OLED displays have deeper blacks, better contrast, and a more vivid display. Additionally, I used the "append_to_file" command to add information about the challenges and opportunities of OLED screens, including their relatively short lifespan, high cost of manufacturing, and superior image quality.Command append_to_file returned: Text appended successfully.Determine which next command to use, and respond using the format specified above:{
+    "thoughts": {
+        "text": "I should use the 'google' command to research the latest developments in OLED technology and add this information to the 'oled_history.txt' file.",
+        "reasoning": "Researching the latest developments in OLED technology will help me provide a comprehensive analysis of OLED technology and its impact on various industries and applications. This will also help me offer insights and recommendations on how to structure and present my paper to effectively communicate my findings and ideas.",
+        "plan": "- Use the 'google' command to research the latest developments in OLED technology and add this information to the 'oled_history.txt' file.",
+        "criticism": "I need to make sure that I am using reliable sources and properly citing all information to maintain academic integrity.",
+        "speak": "I suggest using the 'google' command to research the latest developments in OLED technology and add this information to the 'oled_history.txt' file."
+    },
+    "command": {
+        "name": "google",
+        "args": {
+            "query": "latest developments in OLED technology"
+        }
+    }
+}Command google returned: [
+    {
+        "title": "The 2 Best OLED TVs of 2023 | Reviews by Wirecutter - The New York Times",
+        "href": "https://www.nytimes.com/wirecutter/reviews/best-oled-tv/",
+        "body": "The best OLED performance for any room The Samsung S95B combines OLED technology with quantum dot color to produce the brightest, most color-rich, and most room-flexible OLED TV we've ever..."
+    },
+    {
+        "title": "Making sense of new TV features in 2022 - The Verge",
+        "href": "https://www.theverge.com/22884014/tv-features-hardware-screens-hdmi-hdr-vrr-oled-mini-led",
+        "body": "QD-OLED: CES 2022 marked the big debut of QD-OLED panels on both TVs and gaming monitors. These quantum dot OLED displays are made by Samsung Display and differ from those manufactured by LG ..."
+    },
+    {
+        "title": "What is OLED? Black levels, burn-in, and new Switch | TechRadar",
+        "href": "https://www.techradar.com/news/what-is-oled",
+        "body": "The best OLED TVs in 2023 are the LG C2 OLED, the budget-friendly LG A2 OLED, the Sony XR-A95K, and the Samsung S95B. The best 8K TVs also have an OLED in their ranks, with the awesome but..."
+    },
+    {
+        "title": "What is QD-OLED? The Newest TV Tech Fully Explained - Digital Trends",
+        "href": "https://www.digitaltrends.com/home-theater/qd-oled-hybrid-display-technology-fully-explained/",
+        "body": "Simply put, QD-OLED is a hybrid display technology that takes the already very impressive qualities of OLED TV and improves its brightness and color through the use of quantum dots. The best..."
+    },
+    {
+        "title": "5 new TV technologies that are changing the way you watch",
+        "href": "https://www.techradar.com/news/5-new-tv-technologies-that-are-changing-the-way-you-watch",
+        "body": "While LG offers wide support for the technology, with four HDMI 2.1 ports on each 2020 OLED TV, you'll find only one port on new Samsung TVs, and none on the fleet of new Panasonic sets...."
+    },
+    {
+        "title": "8 Best OLED TVs of 2022 - Best New OLED TVs - Popular Mechanics",
+        "href": "https://www.popularmechanics.com/technology/g37773947/best-oled-tvs/",
+        "body": "LG OLED A1 Series 55-Inch Smart TV. $954 at Walmart $937 at tigerdirect.com. Pros. Incredibly affordable. Similar performance to premium competitors. Cons. Not great for gaming. LG's entry-level ..."
+    },
+    {
+        "title": "Biggest TV trends to watch in 2022 | Tom's Guide",
+        "href": "https://www.tomsguide.com/features/biggest-tv-trends-to-watch-in-2022",
+        "body": "LG has already introduced its OLED evo technology, a generational improvement over standard OLED technology. And even LG's mid-range TVs have benefitted this year from QNED - a combination..."
+    },
+    {
+        "title": "Visionox Releases New OLED Technologies \"on Cloud\" to - GlobeNewswire",
+        "href": "https://www.globenewswire.com/news-release/2022/05/11/2441381/0/en/Visionox-Releases-New-OLED-Technologies-on-Cloud-to-Consolidate-its-Leading-Position.html",
+        "body": "For example, the \"ultra-narrow bottom bezel technology\" was realized by changing the new circuit design and FIAA technology to reduce the lower border from 1.4mm to 1.0mm (previously from 1.8mm to ..."
+    }
+]Determine which next command to use, and respond using the format specified above:

@@ -1,0 +1,13 @@
+Your task is to create a concise running summary of actions and information results in the provided text, focusing on key and potentially important information to remember.
+
+You will receive the current summary and the your latest actions. Combine them, adding relevant key information from the latest development in 1st person past tense and keeping the summary concise.
+
+Summary So Far:
+"""
+{'role': 'system', 'content': 'This reminds you of these events from your past: \nI attempted to use the command "read_file" with the argument "filename: None" but it returned an error stating that the file or directory does not exist. Previously, I used the command "google" to search for the history of OLED screens. The search revealed that OLED technology was first introduced in 1987 at Eastman Kodak and has since evolved in academia and industry. OLED displays have better contrast and a more vivid display compared to LCD displays. The first OLED television was released in 2007 by Sony.'}
+"""
+
+Latest Development:
+"""
+[{'role': 'you', 'content': '{"command": {"name": "write_to_file", "args": {"filename": "oled_history.txt", "text": ""}}}'}, {'role': 'you', 'content': '{"command": {"name": "google", "args": {"query": "history of OLED screens"}}}'}]
+"""

@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "I should use the 'google' command to search for recent developments and future trends in OLED technology.",
+        "reasoning": "Searching for recent developments and future trends will help me identify the latest advancements in OLED technology and provide insights into the direction the technology is heading. This will help me provide a comprehensive and accurate analysis of the challenges and opportunities that OLED screens will face in the future.",
+        "plan": "- Use the 'google' command to search for recent developments and future trends in OLED technology.",
+        "criticism": "I need to make sure that I am properly citing all sources to maintain academic integrity.",
+        "speak": "I suggest using the 'google' command to search for recent developments and future trends in OLED technology."
+    },
+    "command": {
+        "name": "google",
+        "args": {
+            "query": "Recent developments and future trends in OLED technology"
+        }
+    }
+}

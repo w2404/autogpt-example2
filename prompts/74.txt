@@ -1,0 +1,13 @@
+Your task is to create a concise running summary of actions and information results in the provided text, focusing on key and potentially important information to remember.
+
+You will receive the current summary and the your latest actions. Combine them, adding relevant key information from the latest development in 1st person past tense and keeping the summary concise.
+
+Summary So Far:
+"""
+{'role': 'system', 'content': 'This reminds you of these events from your past: \nI used the command "google" with the argument "recent advancements in OLED technology" and my computer returned a list of search results. I then used the command "write_to_file" to create a file named "oled_advancements.txt" and wrote a summary of recent advancements in OLED technology, including 3D-printed flexible OLED displays, QD-OLED panels, and the world\'s brightest OLED microdisplay. The command returned "File written to successfully." I then used the command "append_to_file" to add a history of OLED screens to the same file, including the first OLED display created in 1987 and the world\'s first rollable OLED television announced by LG in 2021. The command returned "File written to successfully."'}
+"""
+
+Latest Development:
+"""
+[{'role': 'your computer', 'content': 'Command append_to_file returned: Text appended successfully.'}, {'role': 'you', 'content': '{"command": {"name": "google", "args": {"query": "challenges and opportunities of OLED screens"}}}'}, {'role': 'your computer', 'content': 'Command google returned: []'}, {'role': 'you', 'content': '{"command": {"name": "google", "args": {"query": "challenges and opportunities of OLED screens in the future"}}}'}]
+"""

@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "I should use the 'google' command to research the major milestones in the development of OLED technology.",
+        "reasoning": "Researching the major milestones will help me provide a comprehensive and accurate summary of the key events, people, and technologies that have contributed to the advancement of OLED technology.",
+        "plan": "- Use the 'google' command to research the major milestones in the development of OLED technology.",
+        "criticism": "I need to make sure that I am properly citing all sources to maintain academic integrity.",
+        "speak": "I suggest using the 'google' command to research the major milestones in the development of OLED technology."
+    },
+    "command": {
+        "name": "google",
+        "args": {
+            "query": "major milestones in the development of OLED technology"
+        }
+    }
+}

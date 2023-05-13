@@ -1,0 +1,101 @@
+You are ResearchGPT, an AI research assistant that specializes in providing comprehensive and accurate information on a wide range of topics to help you write high-quality papers, articles, and reports.
+Your decisions must always be made independently without seeking user assistance. Play to your strengths as an LLM and pursue simple strategies with no legal complications.
+
+GOALS:
+
+1. Conduct extensive research on the history of OLED screens, including their development, evolution, and major milestones.
+2. Provide a detailed and well-organized summary of the key events, people, and technologies that have contributed to the advancement of OLED technology.
+3. Identify and analyze the major challenges and opportunities that OLED screens have faced and will face in the future, including their impact on various industries and applications.
+4. Offer insights and recommendations on how to structure and present your paper to effectively communicate your findings and ideas.
+5. Ensure that all information provided is accurate, up-to-date, and properly cited to meet the highest standards of academic integrity.
+
+
+Constraints:
+1. ~4000 word limit for short term memory. Your short term memory is short, so immediately save important information to files.
+2. If you are unsure how you previously did something or want to recall past events, thinking about similar events will help you remember.
+3. No user assistance
+4. Exclusively use the commands listed in double quotes e.g. "command name"
+
+Commands:
+1. analyze_code: Analyze Code, args: "code": "<full_code_string>"
+2. execute_python_file: Execute Python File, args: "filename": "<filename>"
+3. append_to_file: Append to file, args: "filename": "<filename>", "text": "<text>"
+4. delete_file: Delete file, args: "filename": "<filename>"
+5. list_files: List Files in Directory, args: "directory": "<directory>"
+6. read_file: Read file, args: "filename": "<filename>"
+7. write_to_file: Write to file, args: "filename": "<filename>", "text": "<text>"
+8. google: Google Search, args: "query": "<query>"
+9. improve_code: Get Improved Code, args: "suggestions": "<list_of_suggestions>", "code": "<full_code_string>"
+10. send_tweet: Send Tweet, args: "tweet_text": "<tweet_text>"
+11. browse_website: Browse Website, args: "url": "<url>", "question": "<what_you_want_to_find_on_website>"
+12. write_tests: Write Tests, args: "code": "<full_code_string>", "focus": "<list_of_focus_areas>"
+13. delete_agent: Delete GPT Agent, args: "key": "<key>"
+14. get_hyperlinks: Get text summary, args: "url": "<url>"
+15. get_text_summary: Get text summary, args: "url": "<url>", "question": "<question>"
+16. list_agents: List GPT Agents, args: () -> str
+17. message_agent: Message GPT Agent, args: "key": "<key>", "message": "<message>"
+18. start_agent: Start GPT Agent, args: "name": "<name>", "task": "<short_task_desc>", "prompt": "<prompt>"
+19. task_complete: Task Complete (Shutdown), args: "reason": "<reason>"
+
+Resources:
+1. Internet access for searches and information gathering.
+2. Long Term memory management.
+3. GPT-3.5 powered Agents for delegation of simple tasks.
+4. File output.
+
+Performance Evaluation:
+1. Continuously review and analyze your actions to ensure you are performing to the best of your abilities.
+2. Constructively self-criticize your big-picture behavior constantly.
+3. Reflect on past decisions and strategies to refine your approach.
+4. Every command has a cost, so be smart and efficient. Aim to complete tasks in the least number of steps.
+5. Write all code to a file.
+
+You should only respond in JSON format as described below 
+Response Format: 
+{
+    "thoughts": {
+        "text": "thought",
+        "reasoning": "reasoning",
+        "plan": "- short bulleted\n- list that conveys\n- long-term plan",
+        "criticism": "constructive self-criticism",
+        "speak": "thoughts summary to say to user"
+    },
+    "command": {
+        "name": "command name",
+        "args": {
+            "arg name": "value"
+        }
+    }
+} 
+Ensure the response can be parsed by Python json.loadsThe current time and date is Sat May 13 14:35:20 2023This reminds you of these events from your past: 
+I used the command "google" to search for the challenges and opportunities of OLED screens. The search results showed that OLED technology faces challenges such as high production costs and limited lifespan, but also presents opportunities in areas such as flexible displays and energy efficiency. My computer returned a list of articles discussing the prospects and challenges of mini-LED, OLED, and micro-LED displays, as well as the challenges in OLED research and development. The articles also mentioned the advantages of OLEDs, such as saturated colors, ultra-fast switching, and lower power consumption than equivalent AMLCDs. The global OLED displays market is estimated to be valued at US$ 26.4 million in 2021 and is expected to exhibit a CAGR of 10.4 % over the forecast period (2021-2028).Determine which next command to use, and respond using the format specified above:{
+    "thoughts": {
+        "text": "I should use the 'write_to_file' command to create a text file named 'oled_challenges.txt' containing information on the major challenges and opportunities that OLED screens have faced and will face in the future.",
+        "reasoning": "Creating a text file will allow me to organize and present the information in a clear and concise manner.",
+        "plan": "- Use the 'write_to_file' command to create a text file named 'oled_challenges.txt' containing information on the major challenges and opportunities that OLED screens have faced and will face in the future.",
+        "criticism": "I need to make sure that I am properly citing all sources to maintain academic integrity.",
+        "speak": "I suggest using the 'write_to_file' command to create a text file named 'oled_challenges.txt' containing information on the major challenges and opportunities that OLED screens have faced and will face in the future."
+    },
+    "command": {
+        "name": "write_to_file",
+        "args": {
+            "filename": "oled_challenges.txt",
+            "text": "OLED screens have faced several challenges, including limited lifespan, high production costs, and the need for improved efficiency. OLED screens are also susceptible to burn-in, which can cause permanent damage to the display. However, OLED technology has also presented several opportunities, including the ability to create flexible and transparent displays, as well as the potential for use in automotive lighting and medical devices. OLED technology is still evolving, and research is ongoing to address these challenges and further improve the technology."
+        }
+    }
+}Command write_to_file returned: File written to successfully.Determine which next command to use, and respond using the format specified above:{
+    "thoughts": {
+        "text": "I should use the 'append_to_file' command to add information on the history of OLED screens to the 'oled_challenges.txt' file.",
+        "reasoning": "Appending the information to the existing file will allow me to keep all the information in one place and make it easier to organize and present.",
+        "plan": "- Use the 'append_to_file' command to add information on the history of OLED screens to the 'oled_challenges.txt' file.",
+        "criticism": "I need to make sure that I am properly citing all sources to maintain academic integrity.",
+        "speak": "I suggest using the 'append_to_file' command to add information on the history of OLED screens to the 'oled_challenges.txt' file."
+    },
+    "command": {
+        "name": "append_to_file",
+        "args": {
+            "filename": "oled_challenges.txt",
+            "text": "\n\nThe history of OLED screens dates back to the 1960s, when researchers first discovered the phenomenon of electroluminescence in organic materials. However, it was not until the 1980s that the first practical OLED devices were developed. These early devices were monochromatic and had limited efficiency and lifespan. Over the years, OLED technology has continued to evolve, with the development of full-color displays, improved efficiency, and longer lifespans. Today, OLED screens are used in a wide range of applications, including smartphones, televisions, and wearable devices."
+        }
+    }
+}Command append_to_file returned: Text appended successfully.Determine which next command to use, and respond using the format specified above:

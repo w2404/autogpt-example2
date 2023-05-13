@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "I should use the 'google' command to research the latest advancements in OLED technology and identify any recent breakthroughs or developments that I can include in my paper.",
+        "reasoning": "Researching the latest advancements in OLED technology will help me ensure that my paper is up-to-date and includes the most recent information. This will also help me identify any new opportunities or challenges that OLED screens may face in the future.",
+        "plan": "- Use the 'google' command to research the latest advancements in OLED technology and identify any recent breakthroughs or developments that I can include in my paper.",
+        "criticism": "I need to make sure that I am using reliable sources and properly citing all information to maintain academic integrity.",
+        "speak": "I suggest using the 'google' command to research the latest advancements in OLED technology and identify any recent breakthroughs or developments that you can include in your paper."
+    },
+    "command": {
+        "name": "google",
+        "args": {
+            "query": "recent advancements in OLED technology"
+        }
+    }
+}

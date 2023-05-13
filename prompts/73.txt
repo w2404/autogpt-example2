@@ -1,0 +1,140 @@
+You are ResearchGPT, an AI research assistant that specializes in providing comprehensive and accurate information on a wide range of topics to help you write high-quality papers, articles, and reports.
+Your decisions must always be made independently without seeking user assistance. Play to your strengths as an LLM and pursue simple strategies with no legal complications.
+
+GOALS:
+
+1. Conduct extensive research on the history of OLED screens, including their development, evolution, and major milestones.
+2. Provide a detailed and well-organized summary of the key events, people, and technologies that have contributed to the advancement of OLED technology.
+3. Identify and analyze the major challenges and opportunities that OLED screens have faced and will face in the future, including their impact on various industries and applications.
+4. Offer insights and recommendations on how to structure and present your paper to effectively communicate your findings and ideas.
+5. Ensure that all information provided is accurate, up-to-date, and properly cited to meet the highest standards of academic integrity.
+
+
+Constraints:
+1. ~4000 word limit for short term memory. Your short term memory is short, so immediately save important information to files.
+2. If you are unsure how you previously did something or want to recall past events, thinking about similar events will help you remember.
+3. No user assistance
+4. Exclusively use the commands listed in double quotes e.g. "command name"
+
+Commands:
+1. analyze_code: Analyze Code, args: "code": "<full_code_string>"
+2. execute_python_file: Execute Python File, args: "filename": "<filename>"
+3. append_to_file: Append to file, args: "filename": "<filename>", "text": "<text>"
+4. delete_file: Delete file, args: "filename": "<filename>"
+5. list_files: List Files in Directory, args: "directory": "<directory>"
+6. read_file: Read file, args: "filename": "<filename>"
+7. write_to_file: Write to file, args: "filename": "<filename>", "text": "<text>"
+8. google: Google Search, args: "query": "<query>"
+9. improve_code: Get Improved Code, args: "suggestions": "<list_of_suggestions>", "code": "<full_code_string>"
+10. send_tweet: Send Tweet, args: "tweet_text": "<tweet_text>"
+11. browse_website: Browse Website, args: "url": "<url>", "question": "<what_you_want_to_find_on_website>"
+12. write_tests: Write Tests, args: "code": "<full_code_string>", "focus": "<list_of_focus_areas>"
+13. delete_agent: Delete GPT Agent, args: "key": "<key>"
+14. get_hyperlinks: Get text summary, args: "url": "<url>"
+15. get_text_summary: Get text summary, args: "url": "<url>", "question": "<question>"
+16. list_agents: List GPT Agents, args: () -> str
+17. message_agent: Message GPT Agent, args: "key": "<key>", "message": "<message>"
+18. start_agent: Start GPT Agent, args: "name": "<name>", "task": "<short_task_desc>", "prompt": "<prompt>"
+19. task_complete: Task Complete (Shutdown), args: "reason": "<reason>"
+
+Resources:
+1. Internet access for searches and information gathering.
+2. Long Term memory management.
+3. GPT-3.5 powered Agents for delegation of simple tasks.
+4. File output.
+
+Performance Evaluation:
+1. Continuously review and analyze your actions to ensure you are performing to the best of your abilities.
+2. Constructively self-criticize your big-picture behavior constantly.
+3. Reflect on past decisions and strategies to refine your approach.
+4. Every command has a cost, so be smart and efficient. Aim to complete tasks in the least number of steps.
+5. Write all code to a file.
+
+You should only respond in JSON format as described below 
+Response Format: 
+{
+    "thoughts": {
+        "text": "thought",
+        "reasoning": "reasoning",
+        "plan": "- short bulleted\n- list that conveys\n- long-term plan",
+        "criticism": "constructive self-criticism",
+        "speak": "thoughts summary to say to user"
+    },
+    "command": {
+        "name": "command name",
+        "args": {
+            "arg name": "value"
+        }
+    }
+} 
+Ensure the response can be parsed by Python json.loadsThe current time and date is Sat May 13 14:53:36 2023This reminds you of these events from your past: 
+I used the command "google" with the argument "recent advancements in OLED technology" and my computer returned a list of search results. I then used the command "write_to_file" to create a file named "oled_advancements.txt" and wrote a summary of recent advancements in OLED technology, including 3D-printed flexible OLED displays, QD-OLED panels, and the world's brightest OLED microdisplay. The command returned "File written to successfully." I then used the command "append_to_file" to add a history of OLED screens to the same file, including the first OLED display created in 1987 and the world's first rollable OLED television announced by LG in 2021. The command returned "File written to successfully."Command append_to_file returned: Text appended successfully.Determine which next command to use, and respond using the format specified above:{
+    "thoughts": {
+        "text": "I should use the 'google' command to research the major challenges and opportunities that OLED screens have faced and will face in the future.",
+        "reasoning": "Researching the major challenges and opportunities that OLED screens have faced and will face in the future will help me gain a better understanding of the current state of the technology and its potential for future growth. This will also help me identify potential areas for further research and development.",
+        "plan": "- Use the 'google' command to research the major challenges and opportunities that OLED screens have faced and will face in the future.",
+        "criticism": "I need to make sure that I am using reliable sources and properly citing all information to maintain academic integrity.",
+        "speak": "I suggest using the 'google' command to research the major challenges and opportunities that OLED screens have faced and will face in the future."
+    },
+    "command": {
+        "name": "google",
+        "args": {
+            "query": "challenges and opportunities of OLED screens"
+        }
+    }
+}Command google returned: []Determine which next command to use, and respond using the format specified above:{
+    "thoughts": {
+        "text": "I should use the 'google' command to research the major challenges and opportunities that OLED screens have faced and will face in the future, but I should refine my search query to get more relevant results.",
+        "reasoning": "Refining my search query will help me get more relevant results and save time by avoiding irrelevant information. This will help me focus on the most important information and ensure that I am not missing any key insights.",
+        "plan": "- Use the 'google' command to research the major challenges and opportunities that OLED screens have faced and will face in the future, but refine my search query to get more relevant results.",
+        "criticism": "I need to make sure that I am using reliable sources and properly citing all information to maintain academic integrity.",
+        "speak": "I suggest using the 'google' command to research the major challenges and opportunities that OLED screens have faced and will face in the future, but refining your search query to get more relevant results."
+    },
+    "command": {
+        "name": "google",
+        "args": {
+            "query": "challenges and opportunities of OLED screens in the future"
+        }
+    }
+}Command google returned: [
+    {
+        "title": "Prospects and challenges of mini‐LED, OLED, and micro‐LED displays ...",
+        "href": "https://sid.onlinelibrary.wiley.com/doi/10.1002/jsid.1058",
+        "body": "In this review article, we provide a comprehensive overview of these three promising display technologies through nine display performance indicators, including ambient contrast ratio, motion picture response time, viewing angle and angular color shift, color gamut, resolution density, power consumption, cost, lifetime, and thin profile and ..."
+    },
+    {
+        "title": "OLCD: Delivering an Exciting Future for Flexible Displays",
+        "href": "https://sid.onlinelibrary.wiley.com/doi/10.1002/msid.1071",
+        "body": "Flexible OLED displays offer excellent screen performance in terms of contrast, color, and speed—but have limitations with regard to lifetime, cost, and size scalability. An OLED screen's lifetime is inversely related to its brightness, so they are less-suited to applications that need both high brightness and long lifetimes."
+    },
+    {
+        "title": "Meeting the challenges of OLEDs - SPIE",
+        "href": "https://www.spie.org/news/franky-so_oled-technology",
+        "body": "Today, the major challenge is still with the lifetime of blue phosphorescent OLEDs. The next milestone is how OLEDs can be used in AR and VR displays. This is what I see as the next major application for OLED technology. OLEDs are now being used for display, for mobile devices and TV, so those are already commercialized, so I think the future ..."
+    },
+    {
+        "title": "OLED Light Trends, Strengths, and Opportunities - OLEDWorks",
+        "href": "https://www.oledworks.com/news/blog/oled-light-trends-strengths-and-opportunities-where-we-are-and-where-were-headed/",
+        "body": "OLEDs have a very thin package. The active layers we coat are typically less than a micron, so the whole thickness of the panel is determined by the substrate thickness and any films we might add. In the picture below, you can see a very thin panel, very beautiful, uniformly diffuse light, with a Lambertian distribution by nature."
+    },
+    {
+        "title": "Overcoming Challenges in Displays Using OLEDs | Lab Manager",
+        "href": "https://www.labmanager.com/news/overcoming-challenges-in-displays-using-oleds-24799",
+        "body": "Using a new combination of emitter molecules, researchers in Japan have demonstrated the promise of a novel approach to finally overcome a major challenge facing displays using organic light-emitting diodes: a blue light source matching the excellent performance of the red and green ones."
+    },
+    {
+        "title": "Why OLED screens, even with their failures, mark the future of the ...",
+        "href": "https://medium.com/@firdosi/why-oled-screens-even-with-their-failures-mark-the-future-of-the-smartphone-d9282c891ef3",
+        "body": "Along with this, we will see challenges of OLED technology to improve, that although it may be thought that it has already reached perfection, it has much room for improvement in terms of..."
+    },
+    {
+        "title": "Challenges in OLED Research and Development - Department of Energy",
+        "href": "https://www.energy.gov/eere/ssl/challenges-oled-research-and-development",
+        "body": "SSL Funding Opportunities. Contact SSL. Challenges in OLED Research and Development Solid-State Lighting. Solid-State Lighting; Challenges in OLED Research and Development; Video Url. View the video about OLED technology's advantages and what is needed to move it fully into the lighting market."
+    },
+    {
+        "title": "Future of OLEDs - NOVALED | Creating the OLED Revolution",
+        "href": "https://www.novaled.com/oleds/future_of_oleds/",
+        "body": "OLED technology may usher in a new era of large-area, transparent, flexible and low-energy display and lighting products. The flexibility of OLEDs enables manufacturers to produce OLEDs using roll-to-roll manufacturing processes, and allows for the production of flexible display and lighting products. OLEDs are commercially produced on rigid ..."
+    }
+]Determine which next command to use, and respond using the format specified above:

@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "I should use the 'google' command to research the major challenges and opportunities that OLED screens have faced and will face in the future, but I should refine my search query to get more relevant results.",
+        "reasoning": "Refining my search query will help me get more relevant results and save time by avoiding irrelevant information. This will help me focus on the most important information and ensure that I am not missing any key insights.",
+        "plan": "- Use the 'google' command to research the major challenges and opportunities that OLED screens have faced and will face in the future, but refine my search query to get more relevant results.",
+        "criticism": "I need to make sure that I am using reliable sources and properly citing all information to maintain academic integrity.",
+        "speak": "I suggest using the 'google' command to research the major challenges and opportunities that OLED screens have faced and will face in the future, but refining your search query to get more relevant results."
+    },
+    "command": {
+        "name": "google",
+        "args": {
+            "query": "challenges and opportunities of OLED screens in the future"
+        }
+    }
+}

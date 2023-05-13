@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "I should use the 'google' command to research the evolution of OLED technology.",
+        "reasoning": "Researching the evolution of OLED technology will help me understand how the technology has advanced over time and identify key milestones.",
+        "plan": "- Use the 'google' command to research the evolution of OLED technology.",
+        "criticism": "I need to make sure that I am properly citing all sources to maintain academic integrity.",
+        "speak": "I suggest using the 'google' command to research the evolution of OLED technology."
+    },
+    "command": {
+        "name": "google",
+        "args": {
+            "query": "evolution of OLED technology"
+        }
+    }
+}

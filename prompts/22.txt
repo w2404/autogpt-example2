@@ -1,0 +1,13 @@
+Your task is to create a concise running summary of actions and information results in the provided text, focusing on key and potentially important information to remember.
+
+You will receive the current summary and the your latest actions. Combine them, adding relevant key information from the latest development in 1st person past tense and keeping the summary concise.
+
+Summary So Far:
+"""
+{'role': 'system', 'content': 'This reminds you of these events from your past: \nI used the command "google" to search for the challenges and opportunities of OLED screens. The search results showed that OLED technology faces challenges such as high production costs and limited lifespan, but also presents opportunities in areas such as flexible displays and energy efficiency. My computer returned a list of articles discussing the prospects and challenges of mini-LED, OLED, and micro-LED displays, as well as the challenges in OLED research and development. The articles also mentioned the advantages of OLEDs, such as saturated colors, ultra-fast switching, and lower power consumption than equivalent AMLCDs. The global OLED displays market is estimated to be valued at US$ 26.4 million in 2021 and is expected to exhibit a CAGR of 10.4 % over the forecast period (2021-2028).'}
+"""
+
+Latest Development:
+"""
+[{'role': 'you', 'content': '{"command": {"name": "write_to_file", "args": {"filename": "oled_challenges.txt", "text": "OLED screens have faced several challenges, including limited lifespan, high production costs, and the need for improved efficiency. OLED screens are also susceptible to burn-in, which can cause permanent damage to the display. However, OLED technology has also presented several opportunities, including the ability to create flexible and transparent displays, as well as the potential for use in automotive lighting and medical devices. OLED technology is still evolving, and research is ongoing to address these challenges and further improve the technology."}}}'}]
+"""

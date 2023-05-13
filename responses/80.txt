@@ -1,0 +1,1 @@
+I used the command "append_to_file" to add more information about the history and evolution of OLED screens to the same file. My computer returned "Text appended successfully."

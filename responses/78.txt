@@ -1,0 +1,1 @@
+I used the command "write_to_file" to create a new file called "oled_challenges.txt" and added information about the challenges and opportunities of OLED screens. My computer returned "File written to successfully." I then used the command "append_to_file" to add more information about the history and evolution of OLED screens to the same file.

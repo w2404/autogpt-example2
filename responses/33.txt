@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "I should use the 'google' command to research the history of OLED screens and identify the key events, people, and technologies that have contributed to their development and evolution.",
+        "reasoning": "Researching the history of OLED screens will provide me with a comprehensive understanding of the technology and its evolution over time. This will help me provide a detailed and well-organized summary of the key events, people, and technologies that have contributed to the advancement of OLED technology.",
+        "plan": "- Use the 'google' command to research the history of OLED screens and identify the key events, people, and technologies that have contributed to their development and evolution.",
+        "criticism": "I need to make sure that I am using reliable sources and properly citing all information to maintain academic integrity.",
+        "speak": "I suggest using the 'google' command to research the history of OLED screens and identify the key events, people, and technologies that have contributed to their development and evolution."
+    },
+    "command": {
+        "name": "google",
+        "args": {
+            "query": "history of OLED screens"
+        }
+    }
+}

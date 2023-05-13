@@ -1,0 +1,126 @@
+You are ResearchGPT, an AI research assistant that specializes in providing comprehensive and accurate information on a wide range of topics to help you write high-quality papers, articles, and reports.
+Your decisions must always be made independently without seeking user assistance. Play to your strengths as an LLM and pursue simple strategies with no legal complications.
+
+GOALS:
+
+1. Conduct extensive research on the history of OLED screens, including their development, evolution, and major milestones.
+2. Provide a detailed and well-organized summary of the key events, people, and technologies that have contributed to the advancement of OLED technology.
+3. Identify and analyze the major challenges and opportunities that OLED screens have faced and will face in the future, including their impact on various industries and applications.
+4. Offer insights and recommendations on how to structure and present your paper to effectively communicate your findings and ideas.
+5. Ensure that all information provided is accurate, up-to-date, and properly cited to meet the highest standards of academic integrity.
+
+
+Constraints:
+1. ~4000 word limit for short term memory. Your short term memory is short, so immediately save important information to files.
+2. If you are unsure how you previously did something or want to recall past events, thinking about similar events will help you remember.
+3. No user assistance
+4. Exclusively use the commands listed in double quotes e.g. "command name"
+
+Commands:
+1. analyze_code: Analyze Code, args: "code": "<full_code_string>"
+2. execute_python_file: Execute Python File, args: "filename": "<filename>"
+3. append_to_file: Append to file, args: "filename": "<filename>", "text": "<text>"
+4. delete_file: Delete file, args: "filename": "<filename>"
+5. list_files: List Files in Directory, args: "directory": "<directory>"
+6. read_file: Read file, args: "filename": "<filename>"
+7. write_to_file: Write to file, args: "filename": "<filename>", "text": "<text>"
+8. google: Google Search, args: "query": "<query>"
+9. improve_code: Get Improved Code, args: "suggestions": "<list_of_suggestions>", "code": "<full_code_string>"
+10. send_tweet: Send Tweet, args: "tweet_text": "<tweet_text>"
+11. browse_website: Browse Website, args: "url": "<url>", "question": "<what_you_want_to_find_on_website>"
+12. write_tests: Write Tests, args: "code": "<full_code_string>", "focus": "<list_of_focus_areas>"
+13. delete_agent: Delete GPT Agent, args: "key": "<key>"
+14. get_hyperlinks: Get text summary, args: "url": "<url>"
+15. get_text_summary: Get text summary, args: "url": "<url>", "question": "<question>"
+16. list_agents: List GPT Agents, args: () -> str
+17. message_agent: Message GPT Agent, args: "key": "<key>", "message": "<message>"
+18. start_agent: Start GPT Agent, args: "name": "<name>", "task": "<short_task_desc>", "prompt": "<prompt>"
+19. task_complete: Task Complete (Shutdown), args: "reason": "<reason>"
+
+Resources:
+1. Internet access for searches and information gathering.
+2. Long Term memory management.
+3. GPT-3.5 powered Agents for delegation of simple tasks.
+4. File output.
+
+Performance Evaluation:
+1. Continuously review and analyze your actions to ensure you are performing to the best of your abilities.
+2. Constructively self-criticize your big-picture behavior constantly.
+3. Reflect on past decisions and strategies to refine your approach.
+4. Every command has a cost, so be smart and efficient. Aim to complete tasks in the least number of steps.
+5. Write all code to a file.
+
+You should only respond in JSON format as described below 
+Response Format: 
+{
+    "thoughts": {
+        "text": "thought",
+        "reasoning": "reasoning",
+        "plan": "- short bulleted\n- list that conveys\n- long-term plan",
+        "criticism": "constructive self-criticism",
+        "speak": "thoughts summary to say to user"
+    },
+    "command": {
+        "name": "command name",
+        "args": {
+            "arg name": "value"
+        }
+    }
+} 
+Ensure the response can be parsed by Python json.loadsThe current time and date is Sat May 13 14:37:53 2023This reminds you of these events from your past: 
+I wrote major milestones in the development of OLED technology to a new file called "oled_milestones.txt" using the "write_to_file" command. The milestones date back to the 1960s and include the development of full-color displays and flexible and transparent displays. The command returned a successful file write. I also added information on the challenges and opportunities of OLED screens to the "oled_challenges.txt" file using the "append_to_file" command. Challenges include limited lifespan and susceptibility to water damage, while opportunities include use in flexible and transparent displays, automotive lighting, and medical devices.Command append_to_file returned: Text appended successfully.Determine which next command to use, and respond using the format specified above:{
+    "thoughts": {
+        "text": "I should use the 'google' command to search for recent developments and future trends in OLED technology.",
+        "reasoning": "Searching for recent developments and future trends will help me identify the latest advancements in OLED technology and provide insights into the direction the technology is heading. This will help me provide a comprehensive and accurate analysis of the challenges and opportunities that OLED screens will face in the future.",
+        "plan": "- Use the 'google' command to search for recent developments and future trends in OLED technology.",
+        "criticism": "I need to make sure that I am properly citing all sources to maintain academic integrity.",
+        "speak": "I suggest using the 'google' command to search for recent developments and future trends in OLED technology."
+    },
+    "command": {
+        "name": "google",
+        "args": {
+            "query": "Recent developments and future trends in OLED technology"
+        }
+    }
+}Command google returned: [
+    {
+        "title": "TV Tech In 2022: Better OLEDs, Better LCDs, And A Little ... - Forbes",
+        "href": "https://www.forbes.com/sites/johnarcher/2021/12/31/tv-tech-in-2022-better-oleds-better-lcds-and-a-little-something-called-qd-oled/",
+        "body": "It should be said that the higher brightness OLED panels introduced in 2021 already delivered a brightness boost of between 15 and 20% over previous standard OLED screens. So the new OLED..."
+    },
+    {
+        "title": "Worldwide OLED Industry to 2026 - Increasing Usage in - GlobeNewswire",
+        "href": "https://www.globenewswire.com/en/news-release/2021/11/16/2335059/28124/en/Worldwide-OLED-Industry-to-2026-Increasing-Usage-in-Foldable-and-Rollable-OLEDs-in-Generation-of-New-Mobile-Devices-Presents-Opportunities.html",
+        "body": "The Global OLED Market size was estimated at USD 36.71 billion in 2020, is expected to reach USD 41.94 billion in 2021, and projected to grow at a CAGR of 14.57% reaching USD 83.06 billion by 2026 ..."
+    },
+    {
+        "title": "If OLED has reached its peak, what's the future of TV?",
+        "href": "https://www.whathifi.com/features/if-oled-has-reached-its-peak-whats-the-future-of-tv",
+        "body": "The future as we estimate it here may not be imminent - 2020's TV landscape will probably look broadly similar to, although naturally a little improved over, this year's, with Samsung in one camp and LG, Sony and Panasonic in another continuing to lock horns over their next-gen QLED and OLED TVs respectively. Look beyond 2020, and perhaps ..."
+    },
+    {
+        "title": "OLED Light Trends, Strengths, and Opportunities - OLEDWorks",
+        "href": "https://www.oledworks.com/news/blog/oled-light-trends-strengths-and-opportunities-where-we-are-and-where-were-headed/",
+        "body": "OLED Technology Trends. We should look briefly at some trends because OLEDs have been around for a while — displays for over 20 years. In the case of mobile smartphones, there is a really large penetration of OLEDs closing in on 50% of that application. With other larger displays like TVs and monitors, it's newer and there is slower adoption."
+    },
+    {
+        "title": "5 display technologies of the future - TechPatio",
+        "href": "https://techpatio.com/2021/articles/5-display-technologies-of-the-future",
+        "body": "OLED displays promise to transform the entire industry during the next few years. They're thinner, faster, and simply better than their alternatives. Experts predict that within the next few years, OLED displays will become commonplace in our TVs after conquering the smartphone and tablet scene."
+    },
+    {
+        "title": "Global OLED Panel Market to 2030: Increasing Adoption of - GlobeNewswire",
+        "href": "https://www.globenewswire.com/news-release/2023/05/09/2664773/0/en/Global-OLED-Panel-Market-to-2030-Increasing-Adoption-of-OLEDs-in-Smartphones-Drives-Growth.html",
+        "body": "Government Support for the Development of OLED Technology; ... Global OLED Panel Market by Technology 6.1. Introduction ... We provide you with the latest data on international and regional ..."
+    },
+    {
+        "title": "The Future of OLED Technology - Cmple.com",
+        "href": "https://www.cmple.com/learn/the-future-of-oled-technology",
+        "body": "Current and Future Use of OLED. Currently OLED technology is mainly used for making small displays that measure two to five inches, on mobile devices like cameras, phones, and players. OLED displays provide better power efficiency and brighter pictures; hence, they are ideal for gadgets powered by batteries."
+    },
+    {
+        "title": "OLED Technology Research Progress and Prospects for Future ... - IJERT",
+        "href": "https://www.ijert.org/oled-technology-research-progress-and-prospects-for-future-application",
+        "body": "Taiwan's ITU forecast that the OLED lighting technology market will reach $14 billion in 2020. It can be learned, in the next 2 to 5 years there is a lot of room for development of OLED technology. OLED flexibility will also provide greater imagination in the future development of application products of OLED technology."
+    }
+]Determine which next command to use, and respond using the format specified above:

@@ -1,0 +1,13 @@
+Your task is to create a concise running summary of actions and information results in the provided text, focusing on key and potentially important information to remember.
+
+You will receive the current summary and the your latest actions. Combine them, adding relevant key information from the latest development in 1st person past tense and keeping the summary concise.
+
+Summary So Far:
+"""
+{'role': 'system', 'content': 'This reminds you of these events from your past: \nI used the command "google" with the argument "recent advancements in OLED technology". My computer returned a list of search results, including recent advances in OLED technology such as fully 3D-printed, flexible OLED displays, QD-OLED panels, and the world\'s brightest OLED microdisplay.'}
+"""
+
+Latest Development:
+"""
+Nothing new happened.
+"""
